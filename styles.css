@@ -1,3 +1,14 @@
 body {
-    background-color: blue;
+    background-color: rgb(3,161,252);
 }
+header{
+    text-align: center;
+}
+
+header h2 {
+    color:white;
+}
+.aboutMe {
+    width: 50%;
+}
+
