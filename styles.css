@@ -11,4 +11,10 @@ header h2 {
 .aboutMe {
     width: 50%;
 }
-
+.profile {
+    width: 300px;
+}
+.aboutMe-container {
+    display: flex;
+    justify-content: space-between;
+}
