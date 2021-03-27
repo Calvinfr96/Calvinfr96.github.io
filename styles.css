@@ -17,4 +17,16 @@ header h2 {
 .aboutMe-container {
     display: flex;
     justify-content: space-between;
+    margin: 10px;
+}
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
 }
