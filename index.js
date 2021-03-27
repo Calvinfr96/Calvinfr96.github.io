@@ -7,6 +7,12 @@ const projects = [
     { name: 'Project 6', description: 'Design and create a full-stack application using React and Rails API' }
 ];
 
+function projectYellow(project) {
+    project.style.backgroundColor = 'yellow';
+}
+function projectWhite(project) {
+    project.style.backgroundColor = 'white';
+}
 function createCardFromProject(project) {
     const card = document.createElement('div');
     card.className = 'card';
@@ -15,6 +21,8 @@ function createCardFromProject(project) {
     <h3>${project.name}</h3>
     <p>${project.description}</p>
     `;
+    card.addEventListener('mouseover', function () { projectYellow(card) });
+    card.addEventListener('mouseout', function () { projectWhite(card) });
     return card
 };
 
